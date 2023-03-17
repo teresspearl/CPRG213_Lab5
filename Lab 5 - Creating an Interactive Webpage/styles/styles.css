@@ -1,0 +1,97 @@
+header .brand {
+    display: flex;
+    flex-direction: row;
+    gap: 20px
+    
+}
+
+header .brand #brandname {
+    margin-top: 20px;
+}
+
+header .homepagebutton {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header .homepagebutton #home {
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+    background-color: #BFBFBF;
+    font-weight: bold;
+}
+
+header .homepagebutton #contact {
+    border: 2px solid black;
+    border-top: 1px solid black;
+}
+
+
+a {
+    text-decoration: none;
+}
+header .contactpagebutton {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    font-size: large;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+header .contactpagebutton #home {
+    border: 2px solid black;
+    border-bottom: 1px solid black;
+}
+
+header .contactpagebutton #contact {
+    border: 2px solid black;
+    border-top: 1px solid black;
+    background-color: #BFBFBF;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    color: grey;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    gap: 10px;    
+}
+
+form .name {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+form .email {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+form .message {
+    display: flex;
+    flex-direction: row;
+    gap: 3px;
+    
+}
+
+.formcenter {
+    display: flex;
+    justify-content: center;
+}
